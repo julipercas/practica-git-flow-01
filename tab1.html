@@ -6,6 +6,11 @@
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="/tab1.js"></script>
     <link rel="stylesheet" href="/tab1.css" />
+    <script type = "text/javascript">  
+      function fun() {  
+         alert ("Hola Mundo!!!");  
+      }  
+</script>  
   </head>
 
   <body>
@@ -18,6 +23,11 @@
           <div class="calc">
             <div class="inputVal">
               <textarea class="#input" rows="1" cols="10"></textarea>
+            </div>
+            <div>
+              <form>  
+                <input type = "button" value = "esto es un cambio" onclick = "fun();" />  
+              </form>       
             </div>
             <div>
               <button value="7" id="7">7</button>
